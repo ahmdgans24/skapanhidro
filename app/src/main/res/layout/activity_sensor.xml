@@ -126,4 +126,26 @@
         android:text="Analog Sensor PH"
         android:textStyle="normal"/>
 
+    <TextView
+        android:id="@+id/labelNilai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_below="@+id/labelNama"
+        android:text="Nilai Sensor :"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtNilai"
+        android:layout_below="@+id/txtNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:text="0.0"
+        android:textStyle="normal"/>
+
 </RelativeLayout>

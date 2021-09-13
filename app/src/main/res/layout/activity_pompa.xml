@@ -72,7 +72,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="15pt"
-        android:text="on"
+        android:text="off"
         android:layout_marginTop="200dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/roundbtn"/>
@@ -99,6 +99,6 @@
         android:textStyle="bold"
         android:textSize="10pt"
         android:textColor="@color/green_A400"
-        android:text="ON"/>
+        android:text="OFF"/>
 
 </RelativeLayout>
