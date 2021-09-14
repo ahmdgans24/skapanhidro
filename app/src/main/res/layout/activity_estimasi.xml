@@ -57,11 +57,12 @@
         tools:ignore="MissingConstraints" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_below="@+id/relaToolbar"
         android:id="@+id/recycler_viewTnaman"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/relaToolbar"
+        android:layout_marginTop="-254dp"
         android:clipToPadding="false"
-        android:scrollbars="vertical"/>
+        android:scrollbars="vertical" />
 
 </RelativeLayout>
